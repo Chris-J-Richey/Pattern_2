@@ -1,0 +1,33 @@
+User Stroy 1
+	-Train
+		Object that moves between two points on a rail
+	
+	Task 1.1
+		- Create Enviorment Objects
+			create rail
+			create rail ends
+			create terrain
+	Task 1.2
+		- Create Train
+			create train object
+			set train's various settings
+			assign train's code
+			
+User Stroy 2
+	-Buttons
+		User can click four buttons to control the train. Buttons are as follows: Left, Right, Stop, Random
+	
+	Task 2.1
+		- Create Buttons
+			buttons are created with the GUI text on them
+			buttons have the tag of what button they are
+	Task 2.2
+		- Create Game Contoller
+			assign the code that controls which button is presses
+			reads which button is pressed and changes train state
+			makes the button "click" where it goes down then back up
+			
+User Stroy 3
+	-Train Movement
+		train moves untill it either is told to stop or hits a rail end
+		while the train is moving it goes the same direction unless another button is pressed
